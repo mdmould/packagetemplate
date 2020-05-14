@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-import awesomepackage
+import packagetemplate
 
 
 def test_add():
