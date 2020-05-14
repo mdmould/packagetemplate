@@ -1,5 +1,6 @@
 [![github](https://img.shields.io/badge/GitHub-packagetemplate-blue.svg)](https://github.com/mdmould/packagetemplate)
 [![Build Status](https://travis-ci.com/mdmould/packagetemplate.svg?token=5Sas2wYsnGi2vxjw2Tkt&branch=master)](https://travis-ci.com/mdmould/packagetemplate)
+[![Python package](https://github.com/mdmould/packagetemplate/workflows/Python%20package/badge.svg)](https://github.com/mdmould/packagetemplate)
 
 
 # packagetemplate
