@@ -1,9 +1,9 @@
 import setuptools
 import sys
 
-from _version import __version__
-
 sys.path.append("packagetemplate")
+
+from _version import __version__
 
 setuptools.setup(
     name="packagetemplate",
