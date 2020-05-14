@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/{mdmould}/{packagetemplate}.png?branch=master)](https://travis-ci.org/{mdmould}/{packagetemplate})
+[![github](https://img.shields.io/badge/GitHub-packagetemplate-blue.svg)](https://github.com/mdmould/packagetemplate)
+[![Build Status](https://travis-ci.com/mdmould/packagetemplate.svg?branch=master)](https://travis-ci.com/mdmould/packagetemplate)
 
 
 # packagetemplate
