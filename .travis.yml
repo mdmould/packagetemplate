@@ -8,5 +8,5 @@ install:
   - pip install pytest
   - pip install -e .
 script  :
-  - flake8 -v --statistics -ignore=E402,F401
+  - flake8 --statistics --ignore=E402,F401
   - pytest -v
