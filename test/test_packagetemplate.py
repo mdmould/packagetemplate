@@ -6,7 +6,7 @@ import packagetemplate
 def test_add():
     """Test packagetemplate.arithmetic.add function."""
 
-    c = packagetempalte.arithmetic.add(1., 1.)
+    c = packagetemplate.arithmetic.add(1., 1.)
     assert c == 2.
 
 
