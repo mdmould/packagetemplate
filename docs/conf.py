@@ -15,8 +15,10 @@ import sys
 
 import sphinx
 
+from recommonmark.parser import CommonMarkParser
+
 sys.path.insert(0, os.path.abspath('..'))
-#sys.path.insert(0, os.path.abspath('../awesomepackage'))
+sys.path.insert(0, os.path.abspath('../packagetemplate'))
 
 
 # -- Project information -----------------------------------------------------
@@ -35,12 +37,12 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'numpydoc',
-    #'sphinx.ext.doctest',
-    #'sphinx.ext.todo',
-    #'sphinx.ext.coverage',
-    #'sphinx.ext.mathjax',
-    #'sphinx.ext.viewcode',
-    #'sphinx.ext.githubpages',
+    # 'sphinx.ext.doctest',
+    # 'sphinx.ext.todo',
+    # 'sphinx.ext.coverage',
+    # 'sphinx.ext.mathjax',
+    # 'sphinx.ext.viewcode',
+    # 'sphinx.ext.githubpages',
     'recommonmark'
 ]
 
