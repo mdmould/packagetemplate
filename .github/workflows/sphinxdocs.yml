@@ -15,5 +15,5 @@ jobs:
     # Example of using a custom build-command.
     - uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "sphinx-build -b github"
-        docs-folder: "docs/"
+        build-command: "sphinx-build -b github . _build"
+        docs-folder: "docsource/"
