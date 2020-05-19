@@ -2,7 +2,7 @@
 
 
 def add(a, b):
-    """Function to add together two numbers.
+    """Function to add together two numbers. Hello
 
     Parameters
     ----------
