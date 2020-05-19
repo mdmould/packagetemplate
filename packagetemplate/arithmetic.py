@@ -1,4 +1,6 @@
-"""Functions to perform arithmetic operations."""
+"""
+Functions to perform arithmetic operations.
+"""
 
 
 def add(a, b):

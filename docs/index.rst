@@ -6,7 +6,7 @@ packagetemplate's documentation: index
    :caption: Contents:
    
    README.md
-   api
+   modules
       
 Indices and tables
 ==================

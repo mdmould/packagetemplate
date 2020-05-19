@@ -1,5 +1,6 @@
-"""Functions to perform geometric operations."""
-
+"""
+Functions to perform geometric operations.
+"""
 
 import numpy as np
 

@@ -3,9 +3,7 @@
 
 
 # packagetemplate
-This is a template for Python packages. Hello
-Automatic documentation is implemented with Sphinx and Read the Docs.
-Testing and continuous integration is implemented with pytest and Travis CI.
+This is a template for Python packages.
 
 ## Installation
 
