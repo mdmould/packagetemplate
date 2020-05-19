@@ -1,5 +1,5 @@
 packagetemplate's documentation: index
-=====================================
+======================================
 
 .. toctree::
    :maxdepth: 2
