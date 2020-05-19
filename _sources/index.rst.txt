@@ -1,4 +1,4 @@
-awesomepackage's documentation: index
+packagetemplate's documentation: index
 =====================================
 
 .. toctree::
