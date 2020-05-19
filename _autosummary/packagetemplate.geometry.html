@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>packagetemplate &mdash; packagetemplate 0.0.1 documentation</title>
+  <title>packagetemplate.geometry &mdash; packagetemplate 0.0.1 documentation</title>
   
 
   
@@ -35,8 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="packagetemplate.arithmetic" href="packagetemplate.arithmetic.html" />
-    <link rel="prev" title="Package documentation" href="../modules.html" /> 
+    <link rel="prev" title="packagetemplate.arithmetic" href="packagetemplate.arithmetic.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -88,9 +87,9 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../README.html">packagetemplate</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../modules.html">Package documentation</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">packagetemplate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="packagetemplate.html">packagetemplate</a></li>
 <li class="toctree-l2"><a class="reference internal" href="packagetemplate.arithmetic.html">packagetemplate.arithmetic</a></li>
-<li class="toctree-l2"><a class="reference internal" href="packagetemplate.geometry.html">packagetemplate.geometry</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">packagetemplate.geometry</a></li>
 </ul>
 </li>
 </ul>
@@ -140,13 +139,13 @@
         
           <li><a href="../modules.html">Package documentation</a> &raquo;</li>
         
-      <li>packagetemplate</li>
+      <li>packagetemplate.geometry</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/_autosummary/packagetemplate.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/_autosummary/packagetemplate.geometry.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -159,9 +158,64 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="module-packagetemplate">
-<span id="packagetemplate"></span><h1>packagetemplate<a class="headerlink" href="#module-packagetemplate" title="Permalink to this headline">¶</a></h1>
-<p>This is a template for Python packages.</p>
+  <div class="section" id="module-packagetemplate.geometry">
+<span id="packagetemplate-geometry"></span><h1>packagetemplate.geometry<a class="headerlink" href="#module-packagetemplate.geometry" title="Permalink to this headline">¶</a></h1>
+<p>Functions to perform geometric operations.</p>
+<p class="rubric">Functions</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#packagetemplate.geometry.areaCircle" title="packagetemplate.geometry.areaCircle"><code class="xref py py-obj docutils literal notranslate"><span class="pre">areaCircle</span></code></a>([r])</p></td>
+<td><p>Calculate the area of a circle.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#packagetemplate.geometry.perimeterCircle" title="packagetemplate.geometry.perimeterCircle"><code class="xref py py-obj docutils literal notranslate"><span class="pre">perimeterCircle</span></code></a>([r])</p></td>
+<td><p>Calculate the length of the perimeter of a circle.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="function">
+<dt id="packagetemplate.geometry.areaCircle">
+<code class="sig-prename descclassname">packagetemplate.geometry.</code><code class="sig-name descname">areaCircle</code><span class="sig-paren">(</span><em class="sig-param">r=1.0</em><span class="sig-paren">)</span><a class="headerlink" href="#packagetemplate.geometry.areaCircle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the area of a circle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>r: float, optional (default=1.)</strong></dt><dd><p>Radius of the circle, r&gt;0.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>float</dt><dd><p>Area of the circle.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="packagetemplate.geometry.perimeterCircle">
+<code class="sig-prename descclassname">packagetemplate.geometry.</code><code class="sig-name descname">perimeterCircle</code><span class="sig-paren">(</span><em class="sig-param">r=1.0</em><span class="sig-paren">)</span><a class="headerlink" href="#packagetemplate.geometry.perimeterCircle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the length of the perimeter of a circle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>r: float, optional (default=1.)</strong></dt><dd><p>Radius of the circle, r&gt;0.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>float</dt><dd><p>Perimeter of the circle.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
 </div>
 
 
@@ -172,10 +226,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="packagetemplate.arithmetic.html" class="btn btn-neutral float-right" title="packagetemplate.arithmetic" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="../modules.html" class="btn btn-neutral float-left" title="Package documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="packagetemplate.arithmetic.html" class="btn btn-neutral float-left" title="packagetemplate.arithmetic" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
