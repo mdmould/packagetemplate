@@ -17,8 +17,8 @@ import sphinx
 
 from recommonmark.parser import CommonMarkParser
 
-sys.path.insert(0, os.path.abspath('..'))
-from packagetemplate.__version__ import __version__
+sys.path.insert(0, os.path.abspath('../packagetemplate'))
+from __version__ import __version__
 
 
 # -- Project information -----------------------------------------------------
