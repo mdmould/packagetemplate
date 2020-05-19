@@ -6,5 +6,5 @@ Package documentation
    :toctree: _autosummary
 
    packagetemplate
-   packagetemplate.arithmetic
    packagetemplate.geometry
+   packagetemplate.arithmetic
