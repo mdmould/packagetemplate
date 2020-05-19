@@ -26,7 +26,7 @@ from packagetemplate.__version__ import __version__
 #import _version as packagetemplate_version
 
 project = 'packagetemplate'
-copyright = '2020, Matthew Mould'
+copyright = 'Copyright (c) 2020 Matthew Mould'
 author = 'Matthew Mould'
 
 # The short X.Y version

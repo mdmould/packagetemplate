@@ -1,6 +1,7 @@
 import pytest
 import numpy as np
-import packagetemplate
+import packagetemplate.arithmetic
+import packagetemplate.geometry
 
 
 def test_add():
@@ -18,7 +19,7 @@ def test_multiply():
 
 
 def test_perimeterCircle():
-    """Test awesomepackage.geometry.perimeterCircle function."""
+    """Test packagetemplate.geometry.perimeterCircle function."""
 
     perim = packagetemplate.geometry.perimeterCircle(1.)
     assert perim == 2. * np.pi

@@ -1,7 +1,4 @@
 """
-__version__.py
---------------
-
 Information about the current version of the packagetemplate package.
 """
 

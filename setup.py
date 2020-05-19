@@ -22,7 +22,7 @@ setuptools.setup(
         'Source Code': about['__url__'],
         'Documentation': 'https://mdmould.github.io/packagetemplate/'
     },
-    packages=['packagetemplate'],
+    packages=setuptools.find_packages(),
     include_package_data=True,
     python_requires='>=3.6.*',
     install_requires=['numpy'],
