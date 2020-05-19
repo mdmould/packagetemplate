@@ -8,3 +8,4 @@ Package documentation
    packagetemplate
    packagetemplate.arithmetic
    packagetemplate.geometry
+   packagetemplate.hello

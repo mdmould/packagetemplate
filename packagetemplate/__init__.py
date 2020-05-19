@@ -3,6 +3,7 @@
 
 from . import arithmetic
 from . import geometry
+from . import hello
 from ._version import __version__
 
 
