@@ -3,11 +3,14 @@ import setuptools
 
 about = {}
 here = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(here, 'packagetemplate', '__version__.py')) as _:
+with open(os.path.join(here, 'packagetemplate', '__version__.py'), 'r') as _:
     exec(_.read(), about)
 
 with open ('README.md', 'r') as _:
     readme = _.read()
+
+with open ('requirements.txt', 'r') as _:
+    requires = [line.split()[0] for line in _]
 
 setuptools.setup(
     name=about['__title__'],
@@ -25,6 +28,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     python_requires='>=3.6.*',
-    install_requires=['numpy'],
+    install_requires=requires,
     license=about['__license__']
 )
