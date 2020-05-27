@@ -2,5 +2,6 @@
 This is a template for Python packages.
 """
 
-from .arithmetic import *
+from .__version__ import *
+from . import arithmetic
 from . import geometry
